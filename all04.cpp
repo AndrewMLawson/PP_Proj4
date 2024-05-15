@@ -120,7 +120,7 @@ float
 NonSimdMulSum( float *A, float *B, int n )
 {
 	float sum = 0;
-	for(i = 0; i < n; i++){
+	for(int i = 0; i < n; i++){
 		sum += A[i] + B[i]
 	}
 }
